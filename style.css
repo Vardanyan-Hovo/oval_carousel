@@ -1,0 +1,39 @@
+.container{
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+}
+.slider{
+background-color: rgb(200, 196, 196);
+width: 750px;
+height: 300px;
+}
+
+.slider_container{
+position: relative;
+width: 100%;
+height: 100%;
+}
+.slide{
+position:absolute;
+width: 250px;
+height: 175px;
+background-color: wheat;
+border: 3px solid black;
+text-align: center;
+line-height: 175px;
+font-size: 40px;
+}
+.navbtn_prev,.navbtn_next{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    position : absolute;
+    top: 140px;
+    z-index: 100;
+    text-decoration: none;
+}
+.navbtn_next{
+    left: 75%;
+}
